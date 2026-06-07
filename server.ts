@@ -356,6 +356,12 @@ async function startServer() {
       if (imageUrl.startsWith("/")) {
         targetUrl = `https://www.notion.so${imageUrl}`;
       }
+      if (targetUrl.includes("shared.cloudflare.steamstatic.com/store_images/steam/apps/")) {
+        targetUrl = targetUrl.replace(
+          "https://shared.cloudflare.steamstatic.com/store_images/steam/apps/",
+          "https://cdn.akamai.steamstatic.com/steam/apps/"
+        );
+      }
 
       const headers: Record<string, string> = {
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",

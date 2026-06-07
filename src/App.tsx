@@ -40,8 +40,8 @@ export default function App() {
   const [featuredTrack, setFeaturedTrack] = useState<FeaturedTrack>({
     title: "Carnival of Rust",
     artist: "Poets of the Fall",
-    spotifyId: "3S27v6S8p0Z7WzS0zG4G82",
-    spotifyUrl: "https://open.spotify.com/intl-pt/track/3S27v6S8p0Z7WzS0zG4G82",
+    spotifyId: "2DtPEKs3Pj7E06EoWW4vw8",
+    spotifyUrl: "https://open.spotify.com/intl-pt/track/2DtPEKs3Pj7E06EoWW4vw8",
     coverUrl: "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?auto=format&fit=crop&w=400&q=80"
   });
 
@@ -517,23 +517,23 @@ export default function App() {
     {
       title: "Carnival of Rust",
       artist: "Poets of the Fall",
-      spotifyId: "3S27v6S8p0Z7WzS0zG4G82",
+      spotifyId: "2DtPEKs3Pj7E06EoWW4vw8",
       genre: "Alternative Rock / Indie",
       album: "Carnival of Rust",
       coverUrl: "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?auto=format&fit=crop&w=400&q=80"
     },
     {
-      title: "Дорога",
+      title: "Doroga",
       artist: "Auktyon",
-      spotifyId: "6H6W9n07yOidI9pYjG3Tj6",
+      spotifyId: "0lznmOabve1al78GuyMkc4",
       genre: "Russian Rock / Avant-Garde",
-      album: "Птица",
+      album: "Ptitsa",
       coverUrl: "https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?auto=format&fit=crop&w=400&q=80"
     },
     {
       title: "Between the Bars",
       artist: "Elliott Smith",
-      spotifyId: "2Y9zoC7n6A3v7IDgVE67g8",
+      spotifyId: "52Bg6oaos7twR7IUtEpqcE",
       genre: "Indie Singer-Songwriter / Folk",
       album: "Either/Or",
       coverUrl: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=400&q=80"
@@ -541,7 +541,7 @@ export default function App() {
     {
       title: "Two Cents Worth",
       artist: "Kansas",
-      spotifyId: "5lE3O1MvKWhB9Zp73E9uWq",
+      spotifyId: "0BO9TfkqN6LnbySI8P4xAi",
       genre: "Progressive Rock / Art Rock",
       album: "Masque",
       coverUrl: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?auto=format&fit=crop&w=400&q=80"
@@ -549,7 +549,7 @@ export default function App() {
     {
       title: "Cherry Blossom Girl",
       artist: "Air",
-      spotifyId: "3K69q9p8Y8zYfXkMc87m9b",
+      spotifyId: "4m8ttWM8IKXyhpv89E867J",
       genre: "Downtempo / Electronic / Synthpop",
       album: "Talkie Walkie",
       coverUrl: "https://images.unsplash.com/photo-1522383225653-ed111181a951?auto=format&fit=crop&w=400&q=80"
