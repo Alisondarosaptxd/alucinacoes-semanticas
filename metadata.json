@@ -1,0 +1,6 @@
+{
+  "name": "Alucinações Semânticas",
+  "description": "Arquivo visual de imagens liminares e músicas sintonizadas",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
